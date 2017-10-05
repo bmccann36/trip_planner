@@ -25,6 +25,9 @@ app.use((err, req, res, next) => {
 	})
 });
 
+
+
+
 app.listen(port, () => {
 	console.log(`We are totally listening on port: ${port}`)
 	db.sync()
